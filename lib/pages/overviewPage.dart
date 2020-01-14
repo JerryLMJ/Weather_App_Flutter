@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 
 class OverviewPage extends StatefulWidget {
@@ -44,6 +45,7 @@ class _OverviewPageState extends State<OverviewPage> {
         // ]
       ),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -71,7 +73,19 @@ class _OverviewPageState extends State<OverviewPage> {
           ),
           Column(
             children: <Widget>[
-              
+              SizedBox(
+                width: 60,
+                height: 60,
+                child: SvgPicture.asset("images/weather_qing.svg")
+              ),
+              Text(
+                '--/-10°', 
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600
+                ),
+              )
             ]
           )
         ],
@@ -82,7 +96,7 @@ class _OverviewPageState extends State<OverviewPage> {
   Widget bottomBox() {
     return  Container(
       margin: EdgeInsets.fromLTRB(0, 15, 0, 0),
-      padding: EdgeInsets.all(20),
+      padding: EdgeInsets.fromLTRB(20, 25, 20, 15),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(
@@ -91,18 +105,76 @@ class _OverviewPageState extends State<OverviewPage> {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Text(
-            '北京 今天天气',
-            textAlign: TextAlign.start,
-            style: TextStyle(
-              color: Colors.black,
-              height: 1,
-              fontSize: 18,
-              fontWeight: FontWeight.w600,
+          Padding(
+            padding: EdgeInsets.fromLTRB(0, 0, 0, 5),
+            child: Text(
+              '北京 今天天气',
+              textAlign: TextAlign.start,
+              style: TextStyle(
+                color: Colors.black,
+                height: 1,
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ),
-          Row(),
+          list("images/list_qiwen.png", "高 / 低", "--/-10°"),
+          Divider(height:2.0,indent:0.0,color: Color(0xffDEDEDE)),
+          list("images/list_fengli.png", "风力", "11 公里/小时"),
+          Divider(height:2.0,indent:0.0,color: Color(0xffDEDEDE)),
+          list("images/list_shidu.png", "湿度", "49%"),
+          Divider(height:2.0,indent:0.0,color: Color(0xffDEDEDE)),
+          list("images/list_ludian.png", "露点", "-16°"),
+          Divider(height:2.0,indent:0.0,color: Color(0xffDEDEDE)),
+          list("images/list_qiya.png", "气压", "↑ 1030.1 毫巴"),
+          Divider(height:2.0,indent:0.0,color: Color(0xffDEDEDE)),
+          list("images/list_ziwaixian.png", "紫外线", "0（最大值10）"),
+          Divider(height:2.0,indent:0.0,color: Color(0xffDEDEDE)),
+          list("images/list_nengjiandu.png", "能见度", "9.66 公里"),
+          Divider(height:2.0,indent:0.0,color: Color(0xffDEDEDE)),
+          list("images/list_yuexiang.png", "月相", "亏凸月"),
+        ],
+      ),
+    );
+  }
+
+  Widget list(String pic, String title, String value) {
+    return Padding(
+      padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+              SizedBox(
+                width: 24,
+                height: 24,
+                child: Image.asset(pic),
+              ),
+              Padding(
+                padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
+                child: Text(
+                  title, 
+                  style: TextStyle(
+                    color: Color(0xff2b2b2b),
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              )
+            ],
+          ),
+          Text(
+            value,
+            style: TextStyle(
+              color: Color(0xff2b2b2b),
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+            ),
+          )
         ],
       ),
     );

@@ -21,10 +21,11 @@ dependencies:
     sdk: flutter
 
   url_launcher: ^5.4.1
+  dio: ^3.0.8
+  flutter_svg: ^0.15.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  dio: ^3.0.8
 
 dev_dependencies:
   flutter_test:
@@ -43,9 +44,35 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+   - images/weather_baoyu.svg
+   - images/weather_bingbao.svg
+   - images/weather_daxue.svg
+   - images/weather_dayu.svg
+   - images/weather_duoyun.svg
+   - images/weather_leiyu.svg
+   - images/weather_qing.svg
+   - images/weather_shachen.svg
+   - images/weather_shuang.svg
+   - images/weather_wumai.svg
+   - images/weather_xiaoxue.svg
+   - images/weather_xiaoyu.svg
+   - images/weather_xiaoyuzhuanqing.svg
+   - images/weather_xuezhuanqing.svg
+   - images/weather_ye.svg
+   - images/weather_yeduoyun.svg
+   - images/weather_yintian.svg
+   - images/weather_yujiaxue.svg
+   - images/weather_zhongxue.svg
+   - images/weather_zhongyu.svg
+   - images/list_fengli.png
+   - images/list_ludian.png
+   - images/list_nengjiandu.png
+   - images/list_qiwen.png
+   - images/list_qiya.png
+   - images/list_shidu.png
+   - images/list_yuexiang.png
+   - images/list_ziwaixian.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
