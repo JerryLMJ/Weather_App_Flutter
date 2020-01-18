@@ -33,7 +33,10 @@ class _RooterState extends State<Rooter> {
           onTap: _onItemTapped,
           fixedColor: Theme.of(context).primaryColor,
         ),
-        body: pages[_selecteIndex],
+        body: IndexedStack(
+          index: _selecteIndex,
+          children: pages,
+        ),
       );
     }
 
@@ -42,5 +45,4 @@ class _RooterState extends State<Rooter> {
         _selecteIndex = index;
       });
     }
-
 }

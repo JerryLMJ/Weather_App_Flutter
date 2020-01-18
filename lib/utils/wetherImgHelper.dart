@@ -37,8 +37,8 @@
       case '雷阵雨伴有冰雹':
         return 'images/weather_leiyu.svg'; // 雷雨
       
-      case '':
-        return 'images/weather_xiaoyuzhuanqing.svg'; // 小雨转晴
+      // case '':
+      //   return 'images/weather_xiaoyuzhuanqing.svg'; // 小雨转晴
 
 
       case '冻雨':

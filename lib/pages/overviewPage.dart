@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_easyrefresh/easy_refresh.dart';
 
 import '../net/httpUtil.dart';
 import '../model/weather_model.dart';
@@ -12,9 +13,12 @@ class OverviewPage extends StatefulWidget {
   _OverviewPageState createState() => _OverviewPageState();
 }
 
-class _OverviewPageState extends State<OverviewPage> {
+class _OverviewPageState extends State<OverviewPage> with AutomaticKeepAliveClientMixin {
   WeathierBasicModel basicModel = WeathierBasicModel();
   WeathierNowModel nowModel = WeathierNowModel();
+
+  @override
+  bool get wantKeepAlive => true;
 
   @override
   void initState() {
@@ -43,8 +47,9 @@ class _OverviewPageState extends State<OverviewPage> {
 
   @override
   Widget build(BuildContext context){
+    super.build(context);
+
     return Container(
-      padding: EdgeInsets.all(15),
       decoration: BoxDecoration(
         gradient: new LinearGradient(
           begin: Alignment.topCenter,
@@ -54,17 +59,25 @@ class _OverviewPageState extends State<OverviewPage> {
             Color(0xff157FBA),
           ]),
       ),
-      child: Column(
-        children: <Widget>[
-          topBox(),
-          bottomBox()
-        ],
+      child: EasyRefresh(
+        onRefresh: () async {
+          await Future.delayed(Duration(seconds: 2), () { 
+            getData();
+          });
+        },
+        child: Column(
+          children: <Widget>[
+            topBox(),
+            bottomBox()
+          ],
+        ),
       )
     );
   }
 
   Widget topBox() {
     return Container(
+      margin: EdgeInsets.fromLTRB(15, 15, 15, 0),
       padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
       decoration: BoxDecoration(
         color: Color(0x22ffffff),
@@ -127,7 +140,7 @@ class _OverviewPageState extends State<OverviewPage> {
 
   Widget bottomBox() {
     return  Container(
-      margin: EdgeInsets.fromLTRB(0, 15, 0, 0),
+      margin: EdgeInsets.fromLTRB(15, 15, 15, 0),
       padding: EdgeInsets.fromLTRB(20, 25, 20, 15),
       decoration: BoxDecoration(
         color: Colors.white,
