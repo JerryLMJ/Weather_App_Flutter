@@ -9,18 +9,18 @@ class HttpUtil {
   CancelToken cancelToken = new CancelToken();
 
   static HttpUtil getInstance() {
-    if (null == instance) instance = new HttpUtil();
+    if (null == instance) instance = new HttpUtil(0);
     return instance;
   }
 
   /*
    * config it and create
    */
-  HttpUtil() {
+  HttpUtil(int type) {
     //BaseOptions、Options、RequestOptions 都可以配置参数，优先级别依次递增，且可以根据优先级别覆盖参数
     options = new BaseOptions(
       //请求基地址,可以包含子路径
-      baseUrl: "https://free-api.heweather.net/s6",
+      baseUrl: type == 0 ?"https://free-api.heweather.net/s6" : "https://air-quality.com",
       //连接服务器超时时间，单位是毫秒.
       connectTimeout: 10000,
       //响应流上前后两次接受到数据的间隔，单位为毫秒。

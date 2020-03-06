@@ -11,7 +11,7 @@ class Rooter extends StatefulWidget {
 class _RooterState extends State<Rooter> {
     int _selecteIndex = 0;
 
-    final titles = ['概览', '排行榜'];
+    final titles = ['概览', '空气质量'];
     final pages = [OverviewPage(), RankPage()];
 
     @override
