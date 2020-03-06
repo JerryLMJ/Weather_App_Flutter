@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import './pages/overviewPage.dart';
 import './pages/rankPage.dart';
+import './pages/locationDrawer.dart';
 
 class Rooter extends StatefulWidget {
   @override
@@ -23,7 +24,7 @@ class _RooterState extends State<Rooter> {
             IconButton(icon: Icon(Icons.share), onPressed: () {}),
           ] : <Widget>[],
         ),
-        drawer: Drawer(),
+        drawer: LocationDrawer(),
         bottomNavigationBar: BottomNavigationBar(
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('概览')),

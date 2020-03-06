@@ -26,7 +26,7 @@ class _RankPageState extends State<RankPage> with AutomaticKeepAliveClientMixin 
 
   void loadData() async {
     try {
-      var response = await HttpUtil(1).get('/data/get_ranking');
+      var response = await HttpUtil('https://air-quality.com').get('/data/get_ranking');
       Map dataMap = json.decode(response.toString());
       List ranks = dataMap['data']['rank'];
       var rankData = [];
@@ -55,9 +55,7 @@ class _RankPageState extends State<RankPage> with AutomaticKeepAliveClientMixin 
         },
         child: ListView.separated(
           itemCount: rankList.length,
-          itemBuilder: (BuildContext context, int index) {
-            return rankListItemView(context, index);
-          },
+          itemBuilder: rankListItemView,
           separatorBuilder: (BuildContext context, int index) {
             return Divider(
               height: 1.0, 

@@ -28,7 +28,7 @@ class _OverviewPageState extends State<OverviewPage> with AutomaticKeepAliveClie
 
   void getData() async {
     try {
-      var response = await HttpUtil(0).get('/weather/now?location=beijing&key=4509facd23334126b72d34818b2ef38a');
+      var response = await HttpUtil('https://free-api.heweather.net/s6').get('/weather/now?location=beijing&key=4509facd23334126b72d34818b2ef38a');
       Map dataMap = json.decode(response.toString());
       Map weatherData = dataMap['HeWeather6'][0];
       var weatherBasicModel = WeathierBasicModel.fromJson(weatherData['basic']);
