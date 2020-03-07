@@ -6,7 +6,6 @@ import '../model/location_model.dart';
 import '../net/httpUtil.dart';
 
 
-
 class LocationDrawer extends StatefulWidget {
   @override
   _LocationDrawerState createState() => _LocationDrawerState();

@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyrefresh/easy_refresh.dart';
 
+import './detailPage.dart';
 import '../net/httpUtil.dart';
 import '../model/rank_model.dart';
 
@@ -71,57 +72,62 @@ class _RankPageState extends State<RankPage> with AutomaticKeepAliveClientMixin 
     RankItemModel model = rankList[index];
     return Padding(
       padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: <Widget>[
-          Row(
-            children: <Widget>[
-              Text(
-                '${model.index}',
-                style: TextStyle(
-                  color: Colors.grey,
-                  height: 1.2,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600
+      child: GestureDetector(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Row(
+              children: <Widget>[
+                Text(
+                  '${model.index}',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    height: 1.2,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600
+                  ),
                 ),
+                Container(
+                  width: 15,
+                ),
+                Text(
+                  '${model.place}',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.black,
+                    height: 1.2,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500
+                  ),
+                ),
+              ],
+            ),
+            Container(
+              width: 60,
+              height: 26,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.green,
+                borderRadius: BorderRadius.all(
+                  Radius.circular(4)
+                )
               ),
-              Container(
-                width: 15,
-              ),
-              Text(
-                '${model.place}',
-                textAlign: TextAlign.center,
+              child: Text(
+                '${model.value}',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.white,
                   height: 1.2,
                   fontSize: 16,
-                  fontWeight: FontWeight.w500
+                  fontWeight: FontWeight.w600
                 ),
-              ),
-            ],
-          ),
-          Container(
-            width: 60,
-            height: 26,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: Colors.green,
-              borderRadius: BorderRadius.all(
-                Radius.circular(4)
               )
-            ),
-            child: Text(
-              '${model.value}',
-              style: TextStyle(
-                color: Colors.white,
-                height: 1.2,
-                fontSize: 16,
-                fontWeight: FontWeight.w600
-              ),
             )
-          )
-        ],
+          ],
+        ),
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => DetailPage(title: model.place)));
+        }
       )
-     );
+    );
   }
 }
