@@ -1,0 +1,826 @@
+total 96
+drwxr-xr-x  21 limingjie  staff   672  1 21 21:19 .
+drwxr-xr-x  11 limingjie  staff   352  1 20 17:21 ..
+-rw-r--r--   1 limingjie  staff  8196  8  5 21:54 .DS_Store
+drwxr-xr-x   4 limingjie  staff   128  1 21 21:10 .dart_tool
+-rw-r--r--   1 limingjie  staff   597  1 21 21:15 .flutter-plugins
+-rw-r--r--   1 limingjie  staff  1399  1 21 21:15 .flutter-plugins-dependencies
+drwxr-xr-x  12 limingjie  staff   384  8  5 21:54 .git
+-rw-r--r--   1 limingjie  staff  2427  8  5 21:54 .gitignore
+-rw-r--r--   1 limingjie  staff  4043  1 21 21:07 .packages
+drwxr-xr-x   3 limingjie  staff    96  8  5 21:54 .vscode
+-rw-r--r--   1 limingjie  staff   549  8  5 21:54 README.md
+drwxr-xr-x  10 limingjie  staff   320  1 21 21:07 android
+drwxr-xr-x   4 limingjie  staff   128  1 21 21:15 build
+drwxr-xr-x  31 limingjie  staff   992  8  5 21:54 images
+drwxr-xr-x  12 limingjie  staff   384  1 21 21:15 ios
+-rw-r--r--   1 limingjie  staff     0  1 21 21:19 kundapura.txt
+drwxr-xr-x   9 limingjie  staff   288  8  5 21:54 lib
+-rw-r--r--   1 limingjie  staff  6340  1 21 21:07 pubspec.lock
+-rw-r--r--   1 limingjie  staff  3563  8  5 21:54 pubspec.yaml
+drwxr-xr-x   3 limingjie  staff    96  8  5 21:54 test
+-rw-r--r--   1 limingjie  staff   896  8  5 21:54 weather_app_flutter.iml
+
+./.dart_tool:
+total 24
+drwxr-xr-x   4 limingjie  staff   128  1 21 21:10 .
+drwxr-xr-x  21 limingjie  staff   672  1 21 21:19 ..
+drwxr-xr-x   3 limingjie  staff    96  1 21 21:10 flutter_build
+-rw-r--r--   1 limingjie  staff  8306  1 21 21:07 package_config.json
+
+./.dart_tool/flutter_build:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:10 .
+drwxr-xr-x  4 limingjie  staff  128  1 21 21:10 ..
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:10 1bcc2136914b57993cdeec0a2f11e77f
+
+./.dart_tool/flutter_build/1bcc2136914b57993cdeec0a2f11e77f:
+total 66160
+drwxr-xr-x  7 limingjie  staff       224  1 21 21:10 .
+drwxr-xr-x  3 limingjie  staff        96  1 21 21:10 ..
+-rw-r--r--  1 limingjie  staff    121379  1 21 21:17 .filecache
+-rw-r--r--  1 limingjie  staff  33290992  1 21 21:17 app.dill
+-rw-r--r--  1 limingjie  staff        26  1 21 21:17 gen_localizations.stamp
+-rw-r--r--  1 limingjie  staff     76434  1 21 21:17 kernel_snapshot.d
+-rw-r--r--  1 limingjie  staff         2  1 21 21:17 outputs.json
+
+./.git:
+total 56
+drwxr-xr-x  12 limingjie  staff    384  8  5 21:54 .
+drwxr-xr-x  21 limingjie  staff    672  1 21 21:19 ..
+-rw-r--r--   1 limingjie  staff     23  8  5 21:54 HEAD
+-rw-r--r--   1 limingjie  staff    321  8  5 21:54 config
+-rw-r--r--   1 limingjie  staff     73  8  5 21:54 description
+drwxr-xr-x  14 limingjie  staff    448  8  5 21:54 hooks
+-rw-r--r--   1 limingjie  staff  12238  8  5 21:54 index
+drwxr-xr-x   3 limingjie  staff     96  8  5 21:54 info
+drwxr-xr-x   4 limingjie  staff    128  8  5 21:54 logs
+drwxr-xr-x   4 limingjie  staff    128  8  5 21:54 objects
+-rw-r--r--   1 limingjie  staff    114  8  5 21:54 packed-refs
+drwxr-xr-x   5 limingjie  staff    160  8  5 21:54 refs
+
+./.git/hooks:
+total 104
+drwxr-xr-x  14 limingjie  staff   448  8  5 21:54 .
+drwxr-xr-x  12 limingjie  staff   384  8  5 21:54 ..
+-rwxr-xr-x   1 limingjie  staff   478  8  5 21:54 applypatch-msg.sample
+-rwxr-xr-x   1 limingjie  staff   896  8  5 21:54 commit-msg.sample
+-rwxr-xr-x   1 limingjie  staff  3327  8  5 21:54 fsmonitor-watchman.sample
+-rwxr-xr-x   1 limingjie  staff   189  8  5 21:54 post-update.sample
+-rwxr-xr-x   1 limingjie  staff   424  8  5 21:54 pre-applypatch.sample
+-rwxr-xr-x   1 limingjie  staff  1638  8  5 21:54 pre-commit.sample
+-rwxr-xr-x   1 limingjie  staff   416  8  5 21:54 pre-merge-commit.sample
+-rwxr-xr-x   1 limingjie  staff  1348  8  5 21:54 pre-push.sample
+-rwxr-xr-x   1 limingjie  staff  4898  8  5 21:54 pre-rebase.sample
+-rwxr-xr-x   1 limingjie  staff   544  8  5 21:54 pre-receive.sample
+-rwxr-xr-x   1 limingjie  staff  1492  8  5 21:54 prepare-commit-msg.sample
+-rwxr-xr-x   1 limingjie  staff  3610  8  5 21:54 update.sample
+
+./.git/info:
+total 8
+drwxr-xr-x   3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  12 limingjie  staff  384  8  5 21:54 ..
+-rw-r--r--   1 limingjie  staff  240  8  5 21:54 exclude
+
+./.git/logs:
+total 8
+drwxr-xr-x   4 limingjie  staff  128  8  5 21:54 .
+drwxr-xr-x  12 limingjie  staff  384  8  5 21:54 ..
+-rw-r--r--   1 limingjie  staff  200  8  5 21:54 HEAD
+drwxr-xr-x   4 limingjie  staff  128  8  5 21:54 refs
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x  4 limingjie  staff  128  8  5 21:54 .
+drwxr-xr-x  4 limingjie  staff  128  8  5 21:54 ..
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 heads
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 remotes
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  4 limingjie  staff  128  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  200  8  5 21:54 master
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  4 limingjie  staff  128  8  5 21:54 ..
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 origin
+
+./.git/logs/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  200  8  5 21:54 HEAD
+
+./.git/objects:
+total 0
+drwxr-xr-x   4 limingjie  staff  128  8  5 21:54 .
+drwxr-xr-x  12 limingjie  staff  384  8  5 21:54 ..
+drwxr-xr-x   2 limingjie  staff   64  8  5 21:54 info
+drwxr-xr-x   4 limingjie  staff  128  8  5 21:54 pack
+
+./.git/objects/info:
+total 0
+drwxr-xr-x  2 limingjie  staff   64  8  5 21:54 .
+drwxr-xr-x  4 limingjie  staff  128  8  5 21:54 ..
+
+./.git/objects/pack:
+total 280
+drwxr-xr-x  4 limingjie  staff     128  8  5 21:54 .
+drwxr-xr-x  4 limingjie  staff     128  8  5 21:54 ..
+-r--r--r--  1 limingjie  staff    6840  8  5 21:54 pack-f5dfb3b1725ebb1056514ee9150a74ce9d4888d6.idx
+-r--r--r--  1 limingjie  staff  101601  8  5 21:54 pack-f5dfb3b1725ebb1056514ee9150a74ce9d4888d6.pack
+
+./.git/refs:
+total 0
+drwxr-xr-x   5 limingjie  staff  160  8  5 21:54 .
+drwxr-xr-x  12 limingjie  staff  384  8  5 21:54 ..
+drwxr-xr-x   3 limingjie  staff   96  8  5 21:54 heads
+drwxr-xr-x   3 limingjie  staff   96  8  5 21:54 remotes
+drwxr-xr-x   2 limingjie  staff   64  8  5 21:54 tags
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  5 limingjie  staff  160  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff   41  8  5 21:54 master
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  5 limingjie  staff  160  8  5 21:54 ..
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 origin
+
+./.git/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 .
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  32  8  5 21:54 HEAD
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 limingjie  staff   64  8  5 21:54 .
+drwxr-xr-x  5 limingjie  staff  160  8  5 21:54 ..
+
+./.vscode:
+total 8
+drwxr-xr-x   3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  21 limingjie  staff  672  1 21 21:19 ..
+-rw-r--r--   1 limingjie  staff  369  8  5 21:54 launch.json
+
+./android:
+total 48
+drwxr-xr-x  10 limingjie  staff   320  1 21 21:07 .
+drwxr-xr-x  21 limingjie  staff   672  1 21 21:19 ..
+-rw-r--r--   1 limingjie  staff   110  8  5 21:54 .gitignore
+drwxr-xr-x   4 limingjie  staff   128  8  5 21:54 app
+-rw-r--r--   1 limingjie  staff   582  8  5 21:54 build.gradle
+drwxr-xr-x   3 limingjie  staff    96  8  5 21:54 gradle
+-rw-r--r--   1 limingjie  staff   104  8  5 21:54 gradle.properties
+-rw-r--r--   1 limingjie  staff    81  1 21 21:07 local.properties
+-rw-r--r--   1 limingjie  staff   484  8  5 21:54 settings.gradle
+-rw-r--r--   1 limingjie  staff  1601  8  5 21:54 weather_app_flutter_android.iml
+
+./android/app:
+total 8
+drwxr-xr-x   4 limingjie  staff   128  8  5 21:54 .
+drwxr-xr-x  10 limingjie  staff   320  1 21 21:07 ..
+-rw-r--r--   1 limingjie  staff  2030  8  5 21:54 build.gradle
+drwxr-xr-x   5 limingjie  staff   160  8  5 21:54 src
+
+./android/app/src:
+total 0
+drwxr-xr-x  5 limingjie  staff  160  8  5 21:54 .
+drwxr-xr-x  4 limingjie  staff  128  8  5 21:54 ..
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 debug
+drwxr-xr-x  6 limingjie  staff  192  1 21 21:07 main
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 profile
+
+./android/app/src/debug:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  5 limingjie  staff  160  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  339  8  5 21:54 AndroidManifest.xml
+
+./android/app/src/main:
+total 8
+drwxr-xr-x  6 limingjie  staff   192  1 21 21:07 .
+drwxr-xr-x  5 limingjie  staff   160  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  1553  8  5 21:54 AndroidManifest.xml
+drwxr-xr-x  3 limingjie  staff    96  1 21 21:07 java
+drwxr-xr-x  3 limingjie  staff    96  8  5 21:54 kotlin
+drwxr-xr-x  9 limingjie  staff   288  8  5 21:54 res
+
+./android/app/src/main/java:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:07 .
+drwxr-xr-x  6 limingjie  staff  192  1 21 21:07 ..
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:07 io
+
+./android/app/src/main/java/io:
+total 0
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:07 .
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:07 ..
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:07 flutter
+
+./android/app/src/main/java/io/flutter:
+total 0
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:07 .
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:07 ..
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:07 plugins
+
+./android/app/src/main/java/io/flutter/plugins:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:07 .
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:07 ..
+-rw-r--r--  1 limingjie  staff  520  1 21 21:15 GeneratedPluginRegistrant.java
+
+./android/app/src/main/kotlin:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  6 limingjie  staff  192  1 21 21:07 ..
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 com
+
+./android/app/src/main/kotlin/com:
+total 0
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 .
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 ..
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 example
+
+./android/app/src/main/kotlin/com/example:
+total 0
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 .
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 ..
+drwxr-xr-x  3 limingjie  staff  96  8  5 21:54 weather_app_flutter
+
+./android/app/src/main/kotlin/com/example/weather_app_flutter:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  423  8  5 21:54 MainActivity.kt
+
+./android/app/src/main/res:
+total 0
+drwxr-xr-x  9 limingjie  staff  288  8  5 21:54 .
+drwxr-xr-x  6 limingjie  staff  192  1 21 21:07 ..
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 drawable
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 mipmap-hdpi
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 mipmap-mdpi
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 mipmap-xhdpi
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 mipmap-xxhdpi
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 mipmap-xxxhdpi
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 values
+
+./android/app/src/main/res/drawable:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff  288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  434  8  5 21:54 launch_background.xml
+
+./android/app/src/main/res/mipmap-hdpi:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff  288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  544  8  5 21:54 ic_launcher.png
+
+./android/app/src/main/res/mipmap-mdpi:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff  288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  442  8  5 21:54 ic_launcher.png
+
+./android/app/src/main/res/mipmap-xhdpi:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff  288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  721  8  5 21:54 ic_launcher.png
+
+./android/app/src/main/res/mipmap-xxhdpi:
+total 8
+drwxr-xr-x  3 limingjie  staff    96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff   288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  1031  8  5 21:54 ic_launcher.png
+
+./android/app/src/main/res/mipmap-xxxhdpi:
+total 8
+drwxr-xr-x  3 limingjie  staff    96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff   288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  1443  8  5 21:54 ic_launcher.png
+
+./android/app/src/main/res/values:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff  288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  361  8  5 21:54 styles.xml
+
+./android/app/src/profile:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  5 limingjie  staff  160  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  339  8  5 21:54 AndroidManifest.xml
+
+./android/gradle:
+total 0
+drwxr-xr-x   3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  10 limingjie  staff  320  1 21 21:07 ..
+drwxr-xr-x   3 limingjie  staff   96  8  5 21:54 wrapper
+
+./android/gradle/wrapper:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  233  8  5 21:54 gradle-wrapper.properties
+
+./build:
+total 0
+drwxr-xr-x   4 limingjie  staff  128  1 21 21:15 .
+drwxr-xr-x  21 limingjie  staff  672  1 21 21:19 ..
+drwxr-xr-x   3 limingjie  staff   96  1 21 21:15 c01419c0df5417c042ebf5c2353b40f0
+drwxr-xr-x   5 limingjie  staff  160  1 21 21:15 ios
+
+./build/c01419c0df5417c042ebf5c2353b40f0:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  4 limingjie  staff  128  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff   26  1 21 21:15 gen_localizations.stamp
+
+./build/ios:
+total 8
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:15 .
+drwxr-xr-x  4 limingjie  staff  128  1 21 21:15 ..
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:15 Debug-iphonesimulator
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 Runner.build
+-rw-r--r--  1 limingjie  staff  412  1 21 21:15 pod_inputs.fingerprint
+
+./build/ios/Debug-iphonesimulator:
+total 0
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:15 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:15 ..
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:15 Pods_Runner.framework
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 Runner.app
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 url_launcher
+
+./build/ios/Debug-iphonesimulator/Pods_Runner.framework:
+total 24
+drwxr-xr-x  7 limingjie  staff   224  1 21 21:15 .
+drwxr-xr-x  5 limingjie  staff   160  1 21 21:15 ..
+drwxr-xr-x  3 limingjie  staff    96  1 21 21:15 Headers
+-rw-r--r--  1 limingjie  staff   770  1 21 21:15 Info.plist
+drwxr-xr-x  3 limingjie  staff    96  1 21 21:15 Modules
+-rw-r--r--  1 limingjie  staff  6760  1 21 21:15 Pods_Runner
+drwxr-xr-x  7 limingjie  staff   224  1 21 21:15 _CodeSignature
+
+./build/ios/Debug-iphonesimulator/Pods_Runner.framework/Headers:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff  314  1 21 21:15 Pods-Runner-umbrella.h
+
+./build/ios/Debug-iphonesimulator/Pods_Runner.framework/Modules:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff  112  1 21 21:15 module.modulemap
+
+./build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature:
+total 32
+drwxr-xr-x  7 limingjie  staff   224  1 21 21:15 .
+drwxr-xr-x  7 limingjie  staff   224  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff   154  1 21 21:15 CodeDirectory
+-rw-r--r--  1 limingjie  staff    12  1 21 21:15 CodeRequirements
+-rw-r--r--  1 limingjie  staff   202  1 21 21:15 CodeRequirements-1
+-rw-r--r--  1 limingjie  staff  2430  1 21 21:15 CodeResources
+-rw-r--r--  1 limingjie  staff     0  1 21 21:15 CodeSignature
+
+./build/ios/Debug-iphonesimulator/Runner.app:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:15 ..
+drwxr-xr-x  2 limingjie  staff   64  1 21 21:15 Frameworks
+
+./build/ios/Debug-iphonesimulator/Runner.app/Frameworks:
+total 0
+drwxr-xr-x  2 limingjie  staff  64  1 21 21:15 .
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 ..
+
+./build/ios/Debug-iphonesimulator/url_launcher:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:15 ..
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:15 url_launcher.framework
+
+./build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework:
+total 208
+drwxr-xr-x  7 limingjie  staff     224  1 21 21:15 .
+drwxr-xr-x  3 limingjie  staff      96  1 21 21:15 ..
+drwxr-xr-x  4 limingjie  staff     128  1 21 21:15 Headers
+-rw-r--r--  1 limingjie  staff     772  1 21 21:15 Info.plist
+drwxr-xr-x  3 limingjie  staff      96  1 21 21:15 Modules
+drwxr-xr-x  3 limingjie  staff      96  1 21 21:15 _CodeSignature
+-rwxr-xr-x  1 limingjie  staff  101072  1 21 21:15 url_launcher
+
+./build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Headers:
+total 16
+drwxr-xr-x  4 limingjie  staff  128  1 21 21:15 .
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff  259  1 21 21:15 FLTURLLauncherPlugin.h
+-rw-r--r--  1 limingjie  staff  349  1 21 21:15 url_launcher-umbrella.h
+
+./build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Modules:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff  114  1 21 21:15 module.modulemap
+
+./build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/_CodeSignature:
+total 8
+drwxr-xr-x  3 limingjie  staff    96  1 21 21:15 .
+drwxr-xr-x  7 limingjie  staff   224  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff  2750  1 21 21:15 CodeResources
+
+./build/ios/Runner.build:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:15 ..
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 Release-iphoneos
+
+./build/ios/Runner.build/Release-iphoneos:
+total 0
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 .
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 ..
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 Runner.build
+
+./build/ios/Runner.build/Release-iphoneos/Runner.build:
+total 8
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 .
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 ..
+-rw-------  1 limingjie  staff  99  1 21 21:15 dgph
+
+./images:
+total 272
+drwxr-xr-x  31 limingjie  staff   992  8  5 21:54 .
+drwxr-xr-x  21 limingjie  staff   672  1 21 21:19 ..
+-rw-r--r--   1 limingjie  staff  6148  8  5 21:54 .DS_Store
+-rw-r--r--   1 limingjie  staff   622  8  5 21:54 list_fengli.png
+-rw-r--r--   1 limingjie  staff   657  8  5 21:54 list_ludian.png
+-rw-r--r--   1 limingjie  staff   823  8  5 21:54 list_nengjiandu.png
+-rw-r--r--   1 limingjie  staff   518  8  5 21:54 list_qiwen.png
+-rw-r--r--   1 limingjie  staff   477  8  5 21:54 list_qiya.png
+-rw-r--r--   1 limingjie  staff   566  8  5 21:54 list_shidu.png
+-rw-r--r--   1 limingjie  staff   878  8  5 21:54 list_yuexiang.png
+-rw-r--r--   1 limingjie  staff   894  8  5 21:54 list_ziwaixian.png
+-rw-r--r--   1 limingjie  staff  2004  8  5 21:54 weather_baoyu.svg
+-rw-r--r--   1 limingjie  staff  1896  8  5 21:54 weather_bingbao.svg
+-rw-r--r--   1 limingjie  staff  8405  8  5 21:54 weather_daxue.svg
+-rw-r--r--   1 limingjie  staff  1498  8  5 21:54 weather_dayu.svg
+-rw-r--r--   1 limingjie  staff  2826  8  5 21:54 weather_duoyun.svg
+-rw-r--r--   1 limingjie  staff  1521  8  5 21:54 weather_leiyu.svg
+-rw-r--r--   1 limingjie  staff  2509  8  5 21:54 weather_qing.svg
+-rw-r--r--   1 limingjie  staff  2452  8  5 21:54 weather_shachen.svg
+-rw-r--r--   1 limingjie  staff  1720  8  5 21:54 weather_shuang.svg
+-rw-r--r--   1 limingjie  staff  2146  8  5 21:54 weather_wumai.svg
+-rw-r--r--   1 limingjie  staff  3480  8  5 21:54 weather_xiaoxue.svg
+-rw-r--r--   1 limingjie  staff  1201  8  5 21:54 weather_xiaoyu.svg
+-rw-r--r--   1 limingjie  staff  3048  8  5 21:54 weather_xiaoyuzhuanqing.svg
+-rw-r--r--   1 limingjie  staff  5274  8  5 21:54 weather_xuezhuanqing.svg
+-rw-r--r--   1 limingjie  staff   675  8  5 21:54 weather_ye.svg
+-rw-r--r--   1 limingjie  staff  1279  8  5 21:54 weather_yeduoyun.svg
+-rw-r--r--   1 limingjie  staff   982  8  5 21:54 weather_yintian.svg
+-rw-r--r--   1 limingjie  staff  3816  8  5 21:54 weather_yujiaxue.svg
+-rw-r--r--   1 limingjie  staff  5844  8  5 21:54 weather_zhongxue.svg
+-rw-r--r--   1 limingjie  staff  1361  8  5 21:54 weather_zhongyu.svg
+
+./ios:
+total 40
+drwxr-xr-x  12 limingjie  staff   384  1 21 21:15 .
+drwxr-xr-x  21 limingjie  staff   672  1 21 21:19 ..
+-rw-r--r--   1 limingjie  staff  6148  1 21 21:13 .DS_Store
+-rw-r--r--   1 limingjie  staff   542  8  5 21:54 .gitignore
+drwxr-xr-x   3 limingjie  staff    96  1 21 21:15 .symlinks
+drwxr-xr-x  10 limingjie  staff   320  1 21 21:17 Flutter
+-rw-r--r--   1 limingjie  staff  1354  9 16 01:32 Podfile
+-rw-r--r--   1 limingjie  staff   488  1 21 21:12 Podfile.lock
+drwxr-xr-x   7 limingjie  staff   224  1 21 21:10 Pods
+drwxr-xr-x   9 limingjie  staff   288  1 21 21:07 Runner
+drwxr-xr-x   5 limingjie  staff   160  1 21 21:12 Runner.xcodeproj
+drwxr-xr-x   5 limingjie  staff   160  1 21 21:13 Runner.xcworkspace
+
+./ios/.symlinks:
+total 0
+drwxr-xr-x   3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  12 limingjie  staff  384  1 21 21:15 ..
+drwxr-xr-x   3 limingjie  staff   96  1 21 21:15 plugins
+
+./ios/.symlinks/plugins:
+total 0
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 .
+drwxr-xr-x  3 limingjie  staff  96  1 21 21:15 ..
+lrwxr-xr-x  1 limingjie  staff  80  1 21 21:15 url_launcher -> /Users/limingjie/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-5.7.6/
+
+./ios/Flutter:
+total 56
+drwxr-xr-x  10 limingjie  staff  320  1 21 21:17 .
+drwxr-xr-x  12 limingjie  staff  384  1 21 21:15 ..
+-rw-r--r--   1 limingjie  staff   32  1 21 21:10 .last_build_id
+-rw-r--r--   1 limingjie  staff  794  8  5 21:54 AppFrameworkInfo.plist
+-rw-r--r--   1 limingjie  staff  106  8  5 21:54 Debug.xcconfig
+drwxr-xr-x   8 limingjie  staff  256  1 21 21:17 Flutter.framework
+-rw-r--r--   1 limingjie  staff  758  1 21 21:17 Flutter.podspec
+-rw-r--r--   1 limingjie  staff  643  1 21 21:15 Generated.xcconfig
+-rw-r--r--   1 limingjie  staff  108  8  5 21:54 Release.xcconfig
+-rwxr-xr-x   1 limingjie  staff  778  1 21 21:15 flutter_export_environment.sh
+
+./ios/Flutter/Flutter.framework:
+total 193008
+drwxr-xr-x   8 limingjie  staff       256  1 21 21:17 .
+drwxr-xr-x  10 limingjie  staff       320  1 21 21:17 ..
+-rwxr-xr-x   1 limingjie  staff  97911472  1 21 21:17 Flutter
+drwxr-xr-x  17 limingjie  staff       544  1 21 21:17 Headers
+-rw-r--r--   1 limingjie  staff      1041  1 21 21:17 Info.plist
+drwxr-xr-x   3 limingjie  staff        96  1 21 21:17 Modules
+drwxr-xr-x   3 limingjie  staff        96  1 21 21:17 _CodeSignature
+-rw-r--r--   1 limingjie  staff    898416  1 21 21:17 icudtl.dat
+
+./ios/Flutter/Flutter.framework/Headers:
+total 232
+drwxr-xr-x  17 limingjie  staff    544  1 21 21:17 .
+drwxr-xr-x   8 limingjie  staff    256  1 21 21:17 ..
+-rw-r--r--   1 limingjie  staff   2563  1 21 21:17 Flutter.h
+-rw-r--r--   1 limingjie  staff   1134  1 21 21:17 FlutterAppDelegate.h
+-rw-r--r--   1 limingjie  staff   2573  1 21 21:17 FlutterBinaryMessenger.h
+-rw-r--r--   1 limingjie  staff   1585  1 21 21:17 FlutterCallbackCache.h
+-rw-r--r--   1 limingjie  staff  13933  1 21 21:17 FlutterChannels.h
+-rw-r--r--   1 limingjie  staff  14666  1 21 21:17 FlutterCodecs.h
+-rw-r--r--   1 limingjie  staff   2997  1 21 21:17 FlutterDartProject.h
+-rw-r--r--   1 limingjie  staff  13424  1 21 21:17 FlutterEngine.h
+-rw-r--r--   1 limingjie  staff   2887  1 21 21:17 FlutterHeadlessDartRunner.h
+-rw-r--r--   1 limingjie  staff   1666  1 21 21:17 FlutterMacros.h
+-rw-r--r--   1 limingjie  staff   1828  1 21 21:17 FlutterPlatformViews.h
+-rw-r--r--   1 limingjie  staff  15892  1 21 21:17 FlutterPlugin.h
+-rw-r--r--   1 limingjie  staff   5088  1 21 21:17 FlutterPluginAppLifeCycleDelegate.h
+-rw-r--r--   1 limingjie  staff   1833  1 21 21:17 FlutterTexture.h
+-rw-r--r--   1 limingjie  staff   7655  1 21 21:17 FlutterViewController.h
+
+./ios/Flutter/Flutter.framework/Modules:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:17 .
+drwxr-xr-x  8 limingjie  staff  256  1 21 21:17 ..
+-rw-r--r--  1 limingjie  staff   95  1 21 21:17 module.modulemap
+
+./ios/Flutter/Flutter.framework/_CodeSignature:
+total 16
+drwxr-xr-x  3 limingjie  staff    96  1 21 21:17 .
+drwxr-xr-x  8 limingjie  staff   256  1 21 21:17 ..
+-rw-r--r--  1 limingjie  staff  7090  1 21 21:17 CodeResources
+
+./ios/Pods:
+total 8
+drwxr-xr-x   7 limingjie  staff  224  1 21 21:10 .
+drwxr-xr-x  12 limingjie  staff  384  1 21 21:15 ..
+drwxr-xr-x   2 limingjie  staff   64  1 21 21:10 Headers
+drwxr-xr-x   8 limingjie  staff  256  1 21 21:10 Local Podspecs
+-rw-r--r--   1 limingjie  staff  488  1 21 21:12 Manifest.lock
+drwxr-xr-x   4 limingjie  staff  128  1 21 21:15 Pods.xcodeproj
+drwxr-xr-x   5 limingjie  staff  160  1 21 21:12 Target Support Files
+
+./ios/Pods/Headers:
+total 0
+drwxr-xr-x  2 limingjie  staff   64  1 21 21:10 .
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:10 ..
+
+./ios/Pods/Local Podspecs:
+total 48
+drwxr-xr-x  8 limingjie  staff  256  1 21 21:10 .
+drwxr-xr-x  7 limingjie  staff  224  1 21 21:10 ..
+-rw-r--r--  1 limingjie  staff  561  1 21 21:10 Flutter.podspec.json
+-rw-r--r--  1 limingjie  staff  873  1 21 21:10 url_launcher.podspec.json
+-rw-r--r--  1 limingjie  staff  768  1 21 21:10 url_launcher_linux.podspec.json
+-rw-r--r--  1 limingjie  staff  680  1 21 21:10 url_launcher_macos.podspec.json
+-rw-r--r--  1 limingjie  staff  625  1 21 21:10 url_launcher_web.podspec.json
+-rw-r--r--  1 limingjie  staff  776  1 21 21:10 url_launcher_windows.podspec.json
+
+./ios/Pods/Pods.xcodeproj:
+total 88
+drwxr-xr-x  4 limingjie  staff    128  1 21 21:15 .
+drwxr-xr-x  7 limingjie  staff    224  1 21 21:10 ..
+-rw-------  1 limingjie  staff  41911  1 21 21:15 project.pbxproj
+drwxr-xr-x  3 limingjie  staff     96  1 21 21:10 xcuserdata
+
+./ios/Pods/Pods.xcodeproj/xcuserdata:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:10 .
+drwxr-xr-x  4 limingjie  staff  128  1 21 21:15 ..
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 limingjie.xcuserdatad
+
+./ios/Pods/Pods.xcodeproj/xcuserdata/limingjie.xcuserdatad:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:15 .
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:10 ..
+drwxr-xr-x  6 limingjie  staff  192  1 21 21:15 xcschemes
+
+./ios/Pods/Pods.xcodeproj/xcuserdata/limingjie.xcuserdatad/xcschemes:
+total 32
+drwxr-xr-x  6 limingjie  staff   192  1 21 21:15 .
+drwxr-xr-x  3 limingjie  staff    96  1 21 21:15 ..
+-rw-r--r--  1 limingjie  staff  2082  1 21 21:15 Flutter.xcscheme
+-rw-r--r--  1 limingjie  staff  2031  1 21 21:15 Pods-Runner.xcscheme
+-rw-r--r--  1 limingjie  staff  2102  1 21 21:15 url_launcher.xcscheme
+-rw-r--r--  1 limingjie  staff   542  1 21 21:15 xcschememanagement.plist
+
+./ios/Pods/Target Support Files:
+total 0
+drwxr-xr-x   5 limingjie  staff  160  1 21 21:12 .
+drwxr-xr-x   7 limingjie  staff  224  1 21 21:10 ..
+drwxr-xr-x   3 limingjie  staff   96  1 21 21:10 Flutter
+drwxr-xr-x  12 limingjie  staff  384  1 21 21:10 Pods-Runner
+drwxr-xr-x   8 limingjie  staff  256  1 21 21:10 url_launcher
+
+./ios/Pods/Target Support Files/Flutter:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:10 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:12 ..
+-rw-r--r--  1 limingjie  staff  523  1 21 21:10 Flutter.xcconfig
+
+./ios/Pods/Target Support Files/Pods-Runner:
+total 96
+drwxr-xr-x  12 limingjie  staff   384  1 21 21:10 .
+drwxr-xr-x   5 limingjie  staff   160  1 21 21:12 ..
+-rw-r--r--   1 limingjie  staff   828  1 21 21:10 Pods-Runner-Info.plist
+-rw-r--r--   1 limingjie  staff  1672  1 21 21:12 Pods-Runner-acknowledgements.markdown
+-rw-r--r--   1 limingjie  staff  2545  1 21 21:12 Pods-Runner-acknowledgements.plist
+-rw-r--r--   1 limingjie  staff   126  1 21 21:10 Pods-Runner-dummy.m
+-rwxr-xr-x   1 limingjie  staff  8209  1 21 21:10 Pods-Runner-frameworks.sh
+-rw-r--r--   1 limingjie  staff   314  1 21 21:10 Pods-Runner-umbrella.h
+-rw-r--r--   1 limingjie  staff   689  1 21 21:10 Pods-Runner.debug.xcconfig
+-rw-r--r--   1 limingjie  staff   112  1 21 21:10 Pods-Runner.modulemap
+-rw-r--r--   1 limingjie  staff   689  1 21 21:10 Pods-Runner.profile.xcconfig
+-rw-r--r--   1 limingjie  staff   689  1 21 21:10 Pods-Runner.release.xcconfig
+
+./ios/Pods/Target Support Files/url_launcher:
+total 48
+drwxr-xr-x  8 limingjie  staff  256  1 21 21:10 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:12 ..
+-rw-r--r--  1 limingjie  staff  828  1 21 21:10 url_launcher-Info.plist
+-rw-r--r--  1 limingjie  staff  128  1 21 21:10 url_launcher-dummy.m
+-rw-r--r--  1 limingjie  staff  195  1 21 21:10 url_launcher-prefix.pch
+-rw-r--r--  1 limingjie  staff  349  1 21 21:10 url_launcher-umbrella.h
+-rw-r--r--  1 limingjie  staff  114  1 21 21:10 url_launcher.modulemap
+-rw-r--r--  1 limingjie  staff  669  1 21 21:10 url_launcher.xcconfig
+
+./ios/Runner:
+total 40
+drwxr-xr-x   9 limingjie  staff   288  1 21 21:07 .
+drwxr-xr-x  12 limingjie  staff   384  1 21 21:15 ..
+-rw-r--r--   1 limingjie  staff   404  8  5 21:54 AppDelegate.swift
+drwxr-xr-x   4 limingjie  staff   128  8  5 21:54 Assets.xcassets
+drwxr-xr-x   4 limingjie  staff   128  8  5 21:54 Base.lproj
+-rw-r--r--   1 limingjie  staff   357  1 21 21:15 GeneratedPluginRegistrant.h
+-rw-r--r--   1 limingjie  staff   445  1 21 21:15 GeneratedPluginRegistrant.m
+-rw-r--r--   1 limingjie  staff  1538  8  5 21:54 Info.plist
+-rw-r--r--   1 limingjie  staff    37  8  5 21:54 Runner-Bridging-Header.h
+
+./ios/Runner/Assets.xcassets:
+total 0
+drwxr-xr-x   4 limingjie  staff  128  8  5 21:54 .
+drwxr-xr-x   9 limingjie  staff  288  1 21 21:07 ..
+drwxr-xr-x  18 limingjie  staff  576  8  5 21:54 AppIcon.appiconset
+drwxr-xr-x   7 limingjie  staff  224  8  5 21:54 LaunchImage.imageset
+
+./ios/Runner/Assets.xcassets/AppIcon.appiconset:
+total 144
+drwxr-xr-x  18 limingjie  staff    576  8  5 21:54 .
+drwxr-xr-x   4 limingjie  staff    128  8  5 21:54 ..
+-rw-r--r--   1 limingjie  staff   2519  8  5 21:54 Contents.json
+-rw-r--r--   1 limingjie  staff  10932  8  5 21:54 Icon-App-1024x1024@1x.png
+-rw-r--r--   1 limingjie  staff    564  8  5 21:54 Icon-App-20x20@1x.png
+-rw-r--r--   1 limingjie  staff   1283  8  5 21:54 Icon-App-20x20@2x.png
+-rw-r--r--   1 limingjie  staff   1588  8  5 21:54 Icon-App-20x20@3x.png
+-rw-r--r--   1 limingjie  staff   1025  8  5 21:54 Icon-App-29x29@1x.png
+-rw-r--r--   1 limingjie  staff   1716  8  5 21:54 Icon-App-29x29@2x.png
+-rw-r--r--   1 limingjie  staff   1920  8  5 21:54 Icon-App-29x29@3x.png
+-rw-r--r--   1 limingjie  staff   1283  8  5 21:54 Icon-App-40x40@1x.png
+-rw-r--r--   1 limingjie  staff   1895  8  5 21:54 Icon-App-40x40@2x.png
+-rw-r--r--   1 limingjie  staff   2665  8  5 21:54 Icon-App-40x40@3x.png
+-rw-r--r--   1 limingjie  staff   2665  8  5 21:54 Icon-App-60x60@2x.png
+-rw-r--r--   1 limingjie  staff   3831  8  5 21:54 Icon-App-60x60@3x.png
+-rw-r--r--   1 limingjie  staff   1888  8  5 21:54 Icon-App-76x76@1x.png
+-rw-r--r--   1 limingjie  staff   3294  8  5 21:54 Icon-App-76x76@2x.png
+-rw-r--r--   1 limingjie  staff   3612  8  5 21:54 Icon-App-83.5x83.5@2x.png
+
+./ios/Runner/Assets.xcassets/LaunchImage.imageset:
+total 40
+drwxr-xr-x  7 limingjie  staff  224  8  5 21:54 .
+drwxr-xr-x  4 limingjie  staff  128  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  391  8  5 21:54 Contents.json
+-rw-r--r--  1 limingjie  staff   68  8  5 21:54 LaunchImage.png
+-rw-r--r--  1 limingjie  staff   68  8  5 21:54 LaunchImage@2x.png
+-rw-r--r--  1 limingjie  staff   68  8  5 21:54 LaunchImage@3x.png
+-rw-r--r--  1 limingjie  staff  336  8  5 21:54 README.md
+
+./ios/Runner/Base.lproj:
+total 16
+drwxr-xr-x  4 limingjie  staff   128  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff   288  1 21 21:07 ..
+-rw-r--r--  1 limingjie  staff  2377  8  5 21:54 LaunchScreen.storyboard
+-rw-r--r--  1 limingjie  staff  1605  8  5 21:54 Main.storyboard
+
+./ios/Runner.xcodeproj:
+total 48
+drwxr-xr-x   5 limingjie  staff    160  1 21 21:12 .
+drwxr-xr-x  12 limingjie  staff    384  1 21 21:15 ..
+-rw-------   1 limingjie  staff  23028  1 21 21:15 project.pbxproj
+drwxr-xr-x   3 limingjie  staff     96  8  5 21:54 project.xcworkspace
+drwxr-xr-x   3 limingjie  staff     96  8  5 21:54 xcshareddata
+
+./ios/Runner.xcodeproj/project.xcworkspace:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:12 ..
+-rw-r--r--  1 limingjie  staff  152  8  5 21:54 contents.xcworkspacedata
+
+./ios/Runner.xcodeproj/xcshareddata:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:12 ..
+drwxr-xr-x  3 limingjie  staff   96  8  5 21:54 xcschemes
+
+./ios/Runner.xcodeproj/xcshareddata/xcschemes:
+total 8
+drwxr-xr-x  3 limingjie  staff    96  8  5 21:54 .
+drwxr-xr-x  3 limingjie  staff    96  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  3291  8  5 21:54 Runner.xcscheme
+
+./ios/Runner.xcworkspace:
+total 8
+drwxr-xr-x   5 limingjie  staff  160  1 21 21:13 .
+drwxr-xr-x  12 limingjie  staff  384  1 21 21:15 ..
+-rw-r--r--   1 limingjie  staff  224  8  5 21:54 contents.xcworkspacedata
+drwxr-xr-x   3 limingjie  staff   96  1 21 21:13 xcshareddata
+drwxr-xr-x   3 limingjie  staff   96  1 21 21:13 xcuserdata
+
+./ios/Runner.xcworkspace/xcshareddata:
+total 8
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:13 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:13 ..
+-rw-r--r--  1 limingjie  staff  238  1 21 21:13 IDEWorkspaceChecks.plist
+
+./ios/Runner.xcworkspace/xcuserdata:
+total 0
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:13 .
+drwxr-xr-x  5 limingjie  staff  160  1 21 21:13 ..
+drwxr-xr-x  3 limingjie  staff   96  1 21 21:18 limingjie.xcuserdatad
+
+./ios/Runner.xcworkspace/xcuserdata/limingjie.xcuserdatad:
+total 40
+drwxr-xr-x  3 limingjie  staff     96  1 21 21:18 .
+drwxr-xr-x  3 limingjie  staff     96  1 21 21:13 ..
+-rw-r--r--  1 limingjie  staff  16810  1 21 21:18 UserInterfaceState.xcuserstate
+
+./lib:
+total 32
+drwxr-xr-x   9 limingjie  staff   288  8  5 21:54 .
+drwxr-xr-x  21 limingjie  staff   672  1 21 21:19 ..
+-rw-r--r--   1 limingjie  staff  6148  8  5 21:54 .DS_Store
+-rw-r--r--   1 limingjie  staff   501  8  5 21:54 main.dart
+drwxr-xr-x   5 limingjie  staff   160  8  5 21:54 model
+drwxr-xr-x   3 limingjie  staff    96  8  5 21:54 net
+drwxr-xr-x   6 limingjie  staff   192  8  5 21:54 pages
+-rw-r--r--   1 limingjie  staff  1389  8  5 21:54 rooter.dart
+drwxr-xr-x   3 limingjie  staff    96  8  5 21:54 utils
+
+./lib/model:
+total 24
+drwxr-xr-x  5 limingjie  staff   160  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff   288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  1142  8  5 21:54 location_model.dart
+-rw-r--r--  1 limingjie  staff   534  8  5 21:54 rank_model.dart
+-rw-r--r--  1 limingjie  staff  2379  8  5 21:54 weather_model.dart
+
+./lib/net:
+total 16
+drwxr-xr-x  3 limingjie  staff    96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff   288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  4454  8  5 21:54 httpUtil.dart
+
+./lib/pages:
+total 40
+drwxr-xr-x  6 limingjie  staff   192  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff   288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff   532  8  5 21:54 detailPage.dart
+-rw-r--r--  1 limingjie  staff  2464  8  5 21:54 locationDrawer.dart
+-rw-r--r--  1 limingjie  staff  6934  8  5 21:54 overviewPage.dart
+-rw-r--r--  1 limingjie  staff  3481  8  5 21:54 rankPage.dart
+
+./lib/utils:
+total 8
+drwxr-xr-x  3 limingjie  staff    96  8  5 21:54 .
+drwxr-xr-x  9 limingjie  staff   288  8  5 21:54 ..
+-rw-r--r--  1 limingjie  staff  2407  8  5 21:54 wetherImgHelper.dart
+
+./test:
+total 8
+drwxr-xr-x   3 limingjie  staff    96  8  5 21:54 .
+drwxr-xr-x  21 limingjie  staff   672  1 21 21:19 ..
+-rw-r--r--   1 limingjie  staff  1058  8  5 21:54 widget_test.dart
